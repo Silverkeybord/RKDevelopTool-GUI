@@ -972,7 +972,6 @@ def main():
             manager.tr("tool_not_found_title"),
             manager.tr("tool_not_found_message")
         )
-        sys.exit(1)
 
     # Launch GUI
     manager = TranslationManager()
